@@ -14,8 +14,9 @@ src/          Reusable implementation code.
 scripts/      Commands and helper scripts for reproducing RQ1, RQ2, and RQ3 outputs.
 results/      Final processed metrics and qualitative figures.
 docs/         Artifact notes and result manifests.
+```
 
-Research Questions
+## Research Questions
 RQ1
 RQ1 compares representative SAIA attack families across datasets and split points under matched training conditions.
 RQ2
