@@ -1,0 +1,21 @@
+{
+  "attack": "simlia_euclidean_nearest_reference",
+  "dataset": "tinyimagenet",
+  "cut": "c2",
+  "trials": 5,
+  "seeds": [
+    123,
+    124,
+    125,
+    126,
+    127
+  ],
+  "known_per_class": 1,
+  "avg_attack_accuracy": 0.03506,
+  "max_attack_accuracy": 0.038,
+  "avg_macro_f1": 0.03002012444663956,
+  "max_macro_f1": 0.03227745235451979,
+  "best_model_accuracy": 0.4987,
+  "used_pca": true,
+  "runtime_sec": 15115.105246543884
+}

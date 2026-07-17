@@ -1,0 +1,21 @@
+{
+  "attack": "simlia_euclidean_nearest_reference",
+  "dataset": "cifar10",
+  "cut": "c1",
+  "trials": 5,
+  "seeds": [
+    123,
+    124,
+    125,
+    126,
+    127
+  ],
+  "known_per_class": 1,
+  "avg_attack_accuracy": 0.2049,
+  "max_attack_accuracy": 0.2166,
+  "avg_macro_f1": 0.1920953234408375,
+  "max_macro_f1": 0.2036506229258826,
+  "best_model_accuracy": 0.8705,
+  "used_pca": true,
+  "runtime_sec": 3653.0183057785034
+}
