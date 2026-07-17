@@ -1,32 +1,31 @@
 # SoK Capability-Aware Security and Privacy Risks at the Split Learning Interface
 
-This repository contains the code, configurations, processed results, and plotting scripts for the experiments reported in the paper.
+This repository contains the curated artifact for the paper:
 
-## Scope
+**SoK: Capability-Aware Security and Privacy Risks at the Split Learning Interface**
 
-The artifact covers three experimental questions.
+The artifact includes code, configurations, processed metrics, and qualitative figures used for the empirical study. It does not include raw datasets, trained checkpoints, temporary files, failed runs, or smoke-test outputs.
 
-- RQ1 compares representative SAIA attack families across datasets and cut points.
-- RQ2 studies multi-client leakage under different client counts, data partitions, and orchestration strategies.
-- RQ3 evaluates architecture and activation-level perturbations using ConvNeXt-Tiny.
+## Repository Structure
 
-## Repository Layout
+```text
+configs/      Final experiment configuration files.
+src/          Reusable implementation code.
+scripts/      Commands and helper scripts for reproducing RQ1, RQ2, and RQ3 outputs.
+results/      Final processed metrics and qualitative figures.
+docs/         Artifact notes and result manifests.
 
-- `src/` contains reusable implementation code.
-- `configs/` contains experiment configurations.
-- `scripts/` contains commands for running experiments and regenerating figures.
-- `results/` contains processed metrics, summaries, and final figures.
-- `docs/` contains the result manifest and artifact notes.
-
-## Data
-
-Datasets are not included. Place datasets under a local `data/` directory when running the code.
-
-## Results
-
-The final processed results used in the paper are stored under `results/`.
-The file `docs/result_manifest.md` maps paper tables and figures to their corresponding files.
-
-## Status
-
-This repository is being prepared as the artifact release for the paper.
+Research Questions
+RQ1
+RQ1 compares representative SAIA attack families across datasets and split points under matched training conditions.
+RQ2
+RQ2 studies multi-client leakage under different client counts, data partitions, and orchestration strategies.
+RQ3
+RQ3 evaluates ConvNeXt-Tiny with activation quantization and Gaussian-noise perturbations.
+Data
+Raw datasets are not included. The experiments use public datasets including CIFAR-10, CIFAR-100, and Tiny ImageNet. Users should place datasets under the expected local data directory described in each script.
+Results
+Processed metrics and qualitative reconstruction figures are provided under results/.
+Notes
+This is a curated research artifact. Large checkpoints, raw logs, duplicate runs, and intermediate debugging outputs are intentionally omitted.
+```
