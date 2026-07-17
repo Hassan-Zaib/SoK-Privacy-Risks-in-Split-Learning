@@ -1,0 +1,229 @@
+Start vsl/resnet18 experiments on cifar100 at lc3 with {'e_lr': 0.001, 'd_lr': 0.0005, 'lambda1': 0.02, 'lambda2': 1e-05, 'e_dis_lr': 2e-05, 'd_dis_lr': 5e-09}
+Start running.
+[99]: fg_loss: 4.1362, e_total_loss: 4.3662, e_dis_loss: 0.4544, d_total_loss: 0.0245, d_dis_loss: 1.5266, attack_loss: 0.1048
+[199]: fg_loss: 3.5782, e_total_loss: 3.8054, e_dis_loss: 0.6577, d_total_loss: 0.0167, d_dis_loss: 1.5374, attack_loss: 0.0483
+[299]: fg_loss: 3.2559, e_total_loss: 3.4930, e_dis_loss: 0.6685, d_total_loss: 0.0151, d_dis_loss: 1.4555, attack_loss: 0.0300
+[399]: fg_loss: 2.9953, e_total_loss: 3.2643, e_dis_loss: 0.6379, d_total_loss: 0.0144, d_dis_loss: 1.5333, attack_loss: 0.0288
+[499]: fg_loss: 2.7103, e_total_loss: 3.0343, e_dis_loss: 0.6125, d_total_loss: 0.0131, d_dis_loss: 1.5526, attack_loss: 0.0259
+[599]: fg_loss: 2.4845, e_total_loss: 2.8451, e_dis_loss: 0.5593, d_total_loss: 0.0123, d_dis_loss: 1.5150, attack_loss: 0.0250
+[699]: fg_loss: 2.3007, e_total_loss: 2.6381, e_dis_loss: 0.5049, d_total_loss: 0.0117, d_dis_loss: 1.5706, attack_loss: 0.0244
+[799]: fg_loss: 2.0916, e_total_loss: 2.5185, e_dis_loss: 0.5499, d_total_loss: 0.0112, d_dis_loss: 1.5445, attack_loss: 0.0236
+[899]: fg_loss: 1.9434, e_total_loss: 2.3789, e_dis_loss: 0.4817, d_total_loss: 0.0105, d_dis_loss: 1.5809, attack_loss: 0.0221
+[999]: fg_loss: 1.7776, e_total_loss: 2.2678, e_dis_loss: 0.4996, d_total_loss: 0.0098, d_dis_loss: 1.5315, attack_loss: 0.0218
+[1099]: fg_loss: 1.6391, e_total_loss: 2.1979, e_dis_loss: 0.4544, d_total_loss: 0.0099, d_dis_loss: 1.5176, attack_loss: 0.0214
+[1199]: fg_loss: 1.4716, e_total_loss: 2.1034, e_dis_loss: 0.4122, d_total_loss: 0.0097, d_dis_loss: 1.5563, attack_loss: 0.0216
+[1299]: fg_loss: 1.3387, e_total_loss: 2.0530, e_dis_loss: 0.3898, d_total_loss: 0.0095, d_dis_loss: 1.5514, attack_loss: 0.0218
+[1399]: fg_loss: 1.1914, e_total_loss: 2.0102, e_dis_loss: 0.3383, d_total_loss: 0.0093, d_dis_loss: 1.5244, attack_loss: 0.0228
+[1499]: fg_loss: 1.0271, e_total_loss: 1.9453, e_dis_loss: 0.3489, d_total_loss: 0.0095, d_dis_loss: 1.4978, attack_loss: 0.0254
+[1599]: fg_loss: 0.8463, e_total_loss: 1.8588, e_dis_loss: 0.3429, d_total_loss: 0.0090, d_dis_loss: 1.5551, attack_loss: 0.0226
+[1699]: fg_loss: 0.7091, e_total_loss: 1.8570, e_dis_loss: 0.2887, d_total_loss: 0.0090, d_dis_loss: 1.5009, attack_loss: 0.0234
+[1799]: fg_loss: 0.5941, e_total_loss: 1.8219, e_dis_loss: 0.2764, d_total_loss: 0.0086, d_dis_loss: 1.4860, attack_loss: 0.0242
+[1899]: fg_loss: 0.4564, e_total_loss: 1.7149, e_dis_loss: 0.2427, d_total_loss: 0.0082, d_dis_loss: 1.5285, attack_loss: 0.0239
+[1999]: fg_loss: 0.3440, e_total_loss: 1.6839, e_dis_loss: 0.2222, d_total_loss: 0.0085, d_dis_loss: 1.4909, attack_loss: 0.0246
+[2099]: fg_loss: 0.2553, e_total_loss: 1.5671, e_dis_loss: 0.1938, d_total_loss: 0.0083, d_dis_loss: 1.5251, attack_loss: 0.0230
+[2199]: fg_loss: 0.2007, e_total_loss: 1.4931, e_dis_loss: 0.1875, d_total_loss: 0.0083, d_dis_loss: 1.5015, attack_loss: 0.0226
+[2299]: fg_loss: 0.1663, e_total_loss: 1.4385, e_dis_loss: 0.1702, d_total_loss: 0.0079, d_dis_loss: 1.5320, attack_loss: 0.0213
+[2399]: fg_loss: 0.1311, e_total_loss: 1.3079, e_dis_loss: 0.1577, d_total_loss: 0.0083, d_dis_loss: 1.4890, attack_loss: 0.0220
+[2499]: fg_loss: 0.1251, e_total_loss: 1.2913, e_dis_loss: 0.1594, d_total_loss: 0.0078, d_dis_loss: 1.5416, attack_loss: 0.0219
+[2599]: fg_loss: 0.1063, e_total_loss: 1.1651, e_dis_loss: 0.1328, d_total_loss: 0.0077, d_dis_loss: 1.5361, attack_loss: 0.0216
+[2699]: fg_loss: 0.0954, e_total_loss: 1.0614, e_dis_loss: 0.1266, d_total_loss: 0.0080, d_dis_loss: 1.5106, attack_loss: 0.0223
+[2799]: fg_loss: 0.0951, e_total_loss: 0.9980, e_dis_loss: 0.1347, d_total_loss: 0.0075, d_dis_loss: 1.5202, attack_loss: 0.0219
+[2899]: fg_loss: 0.1208, e_total_loss: 0.9928, e_dis_loss: 0.1092, d_total_loss: 0.0079, d_dis_loss: 1.4822, attack_loss: 0.0219
+[2999]: fg_loss: 0.1153, e_total_loss: 0.9310, e_dis_loss: 0.1064, d_total_loss: 0.0074, d_dis_loss: 1.5130, attack_loss: 0.0206
+[3099]: fg_loss: 0.1152, e_total_loss: 0.8507, e_dis_loss: 0.1109, d_total_loss: 0.0076, d_dis_loss: 1.5392, attack_loss: 0.0210
+[3199]: fg_loss: 0.1135, e_total_loss: 0.7896, e_dis_loss: 0.0971, d_total_loss: 0.0075, d_dis_loss: 1.5219, attack_loss: 0.0207
+[3299]: fg_loss: 0.1069, e_total_loss: 0.7306, e_dis_loss: 0.1110, d_total_loss: 0.0074, d_dis_loss: 1.5325, attack_loss: 0.0200
+[3399]: fg_loss: 0.1107, e_total_loss: 0.7059, e_dis_loss: 0.1033, d_total_loss: 0.0076, d_dis_loss: 1.5178, attack_loss: 0.0221
+[3499]: fg_loss: 0.1081, e_total_loss: 0.6589, e_dis_loss: 0.1023, d_total_loss: 0.0073, d_dis_loss: 1.5084, attack_loss: 0.0219
+[3599]: fg_loss: 0.1121, e_total_loss: 0.5892, e_dis_loss: 0.1138, d_total_loss: 0.0075, d_dis_loss: 1.5249, attack_loss: 0.0201
+[3699]: fg_loss: 0.1014, e_total_loss: 0.5763, e_dis_loss: 0.1159, d_total_loss: 0.0074, d_dis_loss: 1.5057, attack_loss: 0.0206
+[3799]: fg_loss: 0.1023, e_total_loss: 0.5545, e_dis_loss: 0.1111, d_total_loss: 0.0073, d_dis_loss: 1.5077, attack_loss: 0.0200
+[3899]: fg_loss: 0.0994, e_total_loss: 0.5222, e_dis_loss: 0.1176, d_total_loss: 0.0073, d_dis_loss: 1.5130, attack_loss: 0.0207
+[3999]: fg_loss: 0.0856, e_total_loss: 0.4406, e_dis_loss: 0.1242, d_total_loss: 0.0072, d_dis_loss: 1.5185, attack_loss: 0.0205
+[4099]: fg_loss: 0.0859, e_total_loss: 0.4269, e_dis_loss: 0.1363, d_total_loss: 0.0074, d_dis_loss: 1.5078, attack_loss: 0.0204
+[4199]: fg_loss: 0.0659, e_total_loss: 0.3931, e_dis_loss: 0.1451, d_total_loss: 0.0074, d_dis_loss: 1.5240, attack_loss: 0.0192
+[4299]: fg_loss: 0.0548, e_total_loss: 0.3443, e_dis_loss: 0.1693, d_total_loss: 0.0074, d_dis_loss: 1.4898, attack_loss: 0.0182
+[4399]: fg_loss: 0.0558, e_total_loss: 0.3254, e_dis_loss: 0.1518, d_total_loss: 0.0072, d_dis_loss: 1.5307, attack_loss: 0.0184
+[4499]: fg_loss: 0.0581, e_total_loss: 0.3225, e_dis_loss: 0.1777, d_total_loss: 0.0071, d_dis_loss: 1.5192, attack_loss: 0.0184
+[4599]: fg_loss: 0.0548, e_total_loss: 0.3184, e_dis_loss: 0.1681, d_total_loss: 0.0073, d_dis_loss: 1.4977, attack_loss: 0.0184
+[4699]: fg_loss: 0.0609, e_total_loss: 0.3266, e_dis_loss: 0.1904, d_total_loss: 0.0072, d_dis_loss: 1.5394, attack_loss: 0.0179
+[4799]: fg_loss: 0.0538, e_total_loss: 0.3014, e_dis_loss: 0.1798, d_total_loss: 0.0075, d_dis_loss: 1.4875, attack_loss: 0.0178
+[4899]: fg_loss: 0.0818, e_total_loss: 0.3578, e_dis_loss: 0.1965, d_total_loss: 0.0072, d_dis_loss: 1.5040, attack_loss: 0.0182
+[4999]: fg_loss: 0.1070, e_total_loss: 0.3834, e_dis_loss: 0.1988, d_total_loss: 0.0074, d_dis_loss: 1.5177, attack_loss: 0.0181
+[5099]: fg_loss: 0.1118, e_total_loss: 0.4058, e_dis_loss: 0.1949, d_total_loss: 0.0074, d_dis_loss: 1.4915, attack_loss: 0.0184
+[5199]: fg_loss: 0.1025, e_total_loss: 0.3570, e_dis_loss: 0.1939, d_total_loss: 0.0073, d_dis_loss: 1.5078, attack_loss: 0.0180
+[5299]: fg_loss: 0.0883, e_total_loss: 0.3231, e_dis_loss: 0.1842, d_total_loss: 0.0073, d_dis_loss: 1.5065, attack_loss: 0.0177
+[5399]: fg_loss: 0.0676, e_total_loss: 0.3041, e_dis_loss: 0.2100, d_total_loss: 0.0072, d_dis_loss: 1.5109, attack_loss: 0.0165
+[5499]: fg_loss: 0.0565, e_total_loss: 0.2628, e_dis_loss: 0.1978, d_total_loss: 0.0075, d_dis_loss: 1.5062, attack_loss: 0.0163
+[5599]: fg_loss: 0.0412, e_total_loss: 0.2288, e_dis_loss: 0.2166, d_total_loss: 0.0070, d_dis_loss: 1.5130, attack_loss: 0.0158
+[5699]: fg_loss: 0.0433, e_total_loss: 0.2386, e_dis_loss: 0.2410, d_total_loss: 0.0072, d_dis_loss: 1.4955, attack_loss: 0.0162
+[5799]: fg_loss: 0.0445, e_total_loss: 0.2491, e_dis_loss: 0.2364, d_total_loss: 0.0073, d_dis_loss: 1.5133, attack_loss: 0.0156
+[5899]: fg_loss: 0.0368, e_total_loss: 0.2226, e_dis_loss: 0.2347, d_total_loss: 0.0073, d_dis_loss: 1.5098, attack_loss: 0.0159
+[5999]: fg_loss: 0.0335, e_total_loss: 0.2070, e_dis_loss: 0.2322, d_total_loss: 0.0072, d_dis_loss: 1.5065, attack_loss: 0.0157
+[6099]: fg_loss: 0.0328, e_total_loss: 0.2012, e_dis_loss: 0.2613, d_total_loss: 0.0072, d_dis_loss: 1.4905, attack_loss: 0.0154
+[6199]: fg_loss: 0.0367, e_total_loss: 0.2164, e_dis_loss: 0.2556, d_total_loss: 0.0074, d_dis_loss: 1.5170, attack_loss: 0.0156
+[6299]: fg_loss: 0.0594, e_total_loss: 0.2609, e_dis_loss: 0.2456, d_total_loss: 0.0073, d_dis_loss: 1.5189, attack_loss: 0.0152
+[6399]: fg_loss: 0.0587, e_total_loss: 0.2627, e_dis_loss: 0.2551, d_total_loss: 0.0074, d_dis_loss: 1.4972, attack_loss: 0.0157
+[6499]: fg_loss: 0.0637, e_total_loss: 0.2682, e_dis_loss: 0.2649, d_total_loss: 0.0074, d_dis_loss: 1.5014, attack_loss: 0.0163
+[6599]: fg_loss: 0.0795, e_total_loss: 0.2751, e_dis_loss: 0.2611, d_total_loss: 0.0075, d_dis_loss: 1.4834, attack_loss: 0.0156
+[6699]: fg_loss: 0.0806, e_total_loss: 0.2825, e_dis_loss: 0.2358, d_total_loss: 0.0077, d_dis_loss: 1.5117, attack_loss: 0.0156
+[6799]: fg_loss: 0.0935, e_total_loss: 0.2912, e_dis_loss: 0.2503, d_total_loss: 0.0076, d_dis_loss: 1.4735, attack_loss: 0.0158
+[6899]: fg_loss: 0.0759, e_total_loss: 0.2459, e_dis_loss: 0.2466, d_total_loss: 0.0074, d_dis_loss: 1.4818, attack_loss: 0.0151
+[6999]: fg_loss: 0.0701, e_total_loss: 0.2540, e_dis_loss: 0.2596, d_total_loss: 0.0075, d_dis_loss: 1.5188, attack_loss: 0.0148
+[7099]: fg_loss: 0.0547, e_total_loss: 0.2167, e_dis_loss: 0.2428, d_total_loss: 0.0074, d_dis_loss: 1.5141, attack_loss: 0.0154
+[7199]: fg_loss: 0.0414, e_total_loss: 0.2011, e_dis_loss: 0.2594, d_total_loss: 0.0072, d_dis_loss: 1.4879, attack_loss: 0.0152
+[7299]: fg_loss: 0.0293, e_total_loss: 0.1788, e_dis_loss: 0.2701, d_total_loss: 0.0073, d_dis_loss: 1.4935, attack_loss: 0.0147
+[7399]: fg_loss: 0.0197, e_total_loss: 0.1569, e_dis_loss: 0.3009, d_total_loss: 0.0072, d_dis_loss: 1.5001, attack_loss: 0.0142
+[7499]: fg_loss: 0.0170, e_total_loss: 0.1455, e_dis_loss: 0.3210, d_total_loss: 0.0072, d_dis_loss: 1.5118, attack_loss: 0.0143
+[7599]: fg_loss: 0.0139, e_total_loss: 0.1378, e_dis_loss: 0.3519, d_total_loss: 0.0074, d_dis_loss: 1.5113, attack_loss: 0.0141
+[7699]: fg_loss: 0.0083, e_total_loss: 0.1279, e_dis_loss: 0.3210, d_total_loss: 0.0070, d_dis_loss: 1.4997, attack_loss: 0.0141
+[7799]: fg_loss: 0.0079, e_total_loss: 0.1272, e_dis_loss: 0.3275, d_total_loss: 0.0072, d_dis_loss: 1.4943, attack_loss: 0.0132
+[7899]: fg_loss: 0.0094, e_total_loss: 0.1192, e_dis_loss: 0.3457, d_total_loss: 0.0071, d_dis_loss: 1.4992, attack_loss: 0.0135
+[7999]: fg_loss: 0.0064, e_total_loss: 0.1157, e_dis_loss: 0.3896, d_total_loss: 0.0069, d_dis_loss: 1.4919, attack_loss: 0.0138
+[8099]: fg_loss: 0.0052, e_total_loss: 0.1131, e_dis_loss: 0.3652, d_total_loss: 0.0071, d_dis_loss: 1.4997, attack_loss: 0.0134
+[8199]: fg_loss: 0.0098, e_total_loss: 0.1133, e_dis_loss: 0.4003, d_total_loss: 0.0070, d_dis_loss: 1.5083, attack_loss: 0.0139
+[8299]: fg_loss: 0.0114, e_total_loss: 0.1145, e_dis_loss: 0.4005, d_total_loss: 0.0071, d_dis_loss: 1.4843, attack_loss: 0.0138
+[8399]: fg_loss: 0.0084, e_total_loss: 0.1133, e_dis_loss: 0.3846, d_total_loss: 0.0071, d_dis_loss: 1.5178, attack_loss: 0.0141
+[8499]: fg_loss: 0.0109, e_total_loss: 0.1477, e_dis_loss: 0.3899, d_total_loss: 0.0074, d_dis_loss: 1.4802, attack_loss: 0.0137
+[8599]: fg_loss: 0.0547, e_total_loss: 0.2703, e_dis_loss: 0.4056, d_total_loss: 0.0077, d_dis_loss: 1.4833, attack_loss: 0.0139
+[8699]: fg_loss: 0.3388, e_total_loss: 0.7712, e_dis_loss: 0.3769, d_total_loss: 0.0084, d_dis_loss: 1.4990, attack_loss: 0.0157
+[8799]: fg_loss: 0.2779, e_total_loss: 0.5995, e_dis_loss: 0.2693, d_total_loss: 0.0082, d_dis_loss: 1.4852, attack_loss: 0.0148
+[8899]: fg_loss: 0.1272, e_total_loss: 0.3205, e_dis_loss: 0.2007, d_total_loss: 0.0075, d_dis_loss: 1.5356, attack_loss: 0.0142
+[8999]: fg_loss: 0.0528, e_total_loss: 0.2079, e_dis_loss: 0.2322, d_total_loss: 0.0075, d_dis_loss: 1.5077, attack_loss: 0.0138
+[9099]: fg_loss: 0.0345, e_total_loss: 0.1716, e_dis_loss: 0.2315, d_total_loss: 0.0073, d_dis_loss: 1.4817, attack_loss: 0.0132
+[9199]: fg_loss: 0.0182, e_total_loss: 0.1351, e_dis_loss: 0.2411, d_total_loss: 0.0072, d_dis_loss: 1.4895, attack_loss: 0.0130
+[9299]: fg_loss: 0.0099, e_total_loss: 0.1210, e_dis_loss: 0.2811, d_total_loss: 0.0071, d_dis_loss: 1.4875, attack_loss: 0.0124
+[9399]: fg_loss: 0.0063, e_total_loss: 0.1063, e_dis_loss: 0.3220, d_total_loss: 0.0069, d_dis_loss: 1.4963, attack_loss: 0.0124
+[9499]: fg_loss: 0.0048, e_total_loss: 0.0993, e_dis_loss: 0.3559, d_total_loss: 0.0071, d_dis_loss: 1.4793, attack_loss: 0.0124
+[9599]: fg_loss: 0.0029, e_total_loss: 0.0926, e_dis_loss: 0.3556, d_total_loss: 0.0068, d_dis_loss: 1.5021, attack_loss: 0.0120
+[9699]: fg_loss: 0.0046, e_total_loss: 0.0902, e_dis_loss: 0.4302, d_total_loss: 0.0070, d_dis_loss: 1.4699, attack_loss: 0.0115
+[9799]: fg_loss: 0.0018, e_total_loss: 0.0904, e_dis_loss: 0.4315, d_total_loss: 0.0070, d_dis_loss: 1.4985, attack_loss: 0.0125
+[9899]: fg_loss: 0.0033, e_total_loss: 0.0841, e_dis_loss: 0.4836, d_total_loss: 0.0070, d_dis_loss: 1.4807, attack_loss: 0.0121
+[9999]: fg_loss: 0.0033, e_total_loss: 0.0872, e_dis_loss: 0.4603, d_total_loss: 0.0072, d_dis_loss: 1.5036, attack_loss: 0.0118
+[10099]: fg_loss: 0.0014, e_total_loss: 0.0831, e_dis_loss: 0.4910, d_total_loss: 0.0071, d_dis_loss: 1.4892, attack_loss: 0.0122
+[10199]: fg_loss: 0.0018, e_total_loss: 0.0806, e_dis_loss: 0.5136, d_total_loss: 0.0072, d_dis_loss: 1.4760, attack_loss: 0.0116
+[10299]: fg_loss: 0.0013, e_total_loss: 0.0769, e_dis_loss: 0.5240, d_total_loss: 0.0070, d_dis_loss: 1.5110, attack_loss: 0.0118
+[10399]: fg_loss: 0.0020, e_total_loss: 0.0797, e_dis_loss: 0.4993, d_total_loss: 0.0071, d_dis_loss: 1.4778, attack_loss: 0.0113
+[10499]: fg_loss: 0.0018, e_total_loss: 0.0775, e_dis_loss: 0.5364, d_total_loss: 0.0069, d_dis_loss: 1.4953, attack_loss: 0.0114
+[10599]: fg_loss: 0.0014, e_total_loss: 0.0727, e_dis_loss: 0.5448, d_total_loss: 0.0070, d_dis_loss: 1.4878, attack_loss: 0.0112
+[10699]: fg_loss: 0.0015, e_total_loss: 0.0761, e_dis_loss: 0.5490, d_total_loss: 0.0070, d_dis_loss: 1.4839, attack_loss: 0.0111
+[10799]: fg_loss: 0.0013, e_total_loss: 0.0730, e_dis_loss: 0.6481, d_total_loss: 0.0070, d_dis_loss: 1.4931, attack_loss: 0.0114
+[10899]: fg_loss: 0.0017, e_total_loss: 0.0739, e_dis_loss: 0.5817, d_total_loss: 0.0072, d_dis_loss: 1.4831, attack_loss: 0.0113
+[10999]: fg_loss: 0.0010, e_total_loss: 0.0727, e_dis_loss: 0.6089, d_total_loss: 0.0070, d_dis_loss: 1.5104, attack_loss: 0.0119
+[11099]: fg_loss: 0.0016, e_total_loss: 0.0744, e_dis_loss: 0.5862, d_total_loss: 0.0070, d_dis_loss: 1.4847, attack_loss: 0.0111
+[11199]: fg_loss: 0.0010, e_total_loss: 0.0727, e_dis_loss: 0.6191, d_total_loss: 0.0071, d_dis_loss: 1.4954, attack_loss: 0.0114
+[11299]: fg_loss: 0.0011, e_total_loss: 0.0840, e_dis_loss: 0.5921, d_total_loss: 0.0073, d_dis_loss: 1.4886, attack_loss: 0.0116
+[11399]: fg_loss: 0.0014, e_total_loss: 0.0890, e_dis_loss: 0.5877, d_total_loss: 0.0074, d_dis_loss: 1.4913, attack_loss: 0.0115
+[11499]: fg_loss: 0.0009, e_total_loss: 0.0901, e_dis_loss: 0.5819, d_total_loss: 0.0074, d_dis_loss: 1.4798, attack_loss: 0.0119
+[11599]: fg_loss: 0.0014, e_total_loss: 0.0919, e_dis_loss: 0.5590, d_total_loss: 0.0073, d_dis_loss: 1.4912, attack_loss: 0.0119
+[11699]: fg_loss: 0.0008, e_total_loss: 0.0894, e_dis_loss: 0.5066, d_total_loss: 0.0074, d_dis_loss: 1.4839, attack_loss: 0.0113
+[11799]: fg_loss: 0.0012, e_total_loss: 0.0985, e_dis_loss: 0.5394, d_total_loss: 0.0072, d_dis_loss: 1.4851, attack_loss: 0.0109
+[11899]: fg_loss: 0.0013, e_total_loss: 0.0962, e_dis_loss: 0.5098, d_total_loss: 0.0074, d_dis_loss: 1.4847, attack_loss: 0.0107
+[11999]: fg_loss: 0.0013, e_total_loss: 0.0934, e_dis_loss: 0.5063, d_total_loss: 0.0073, d_dis_loss: 1.4868, attack_loss: 0.0109
+[12099]: fg_loss: 0.0011, e_total_loss: 0.0874, e_dis_loss: 0.5442, d_total_loss: 0.0073, d_dis_loss: 1.4782, attack_loss: 0.0109
+[12199]: fg_loss: 0.0010, e_total_loss: 0.0835, e_dis_loss: 0.5450, d_total_loss: 0.0072, d_dis_loss: 1.4838, attack_loss: 0.0111
+[12299]: fg_loss: 0.0015, e_total_loss: 0.0854, e_dis_loss: 0.5920, d_total_loss: 0.0073, d_dis_loss: 1.4795, attack_loss: 0.0106
+[12399]: fg_loss: 0.0007, e_total_loss: 0.0800, e_dis_loss: 0.5542, d_total_loss: 0.0071, d_dis_loss: 1.4764, attack_loss: 0.0106
+[12499]: fg_loss: 0.0010, e_total_loss: 0.0835, e_dis_loss: 0.5798, d_total_loss: 0.0072, d_dis_loss: 1.4732, attack_loss: 0.0106
+[12599]: fg_loss: 0.0012, e_total_loss: 0.0849, e_dis_loss: 0.5560, d_total_loss: 0.0073, d_dis_loss: 1.4761, attack_loss: 0.0107
+[12699]: fg_loss: 0.0014, e_total_loss: 0.0807, e_dis_loss: 0.5852, d_total_loss: 0.0074, d_dis_loss: 1.4877, attack_loss: 0.0114
+[12799]: fg_loss: 0.0009, e_total_loss: 0.0881, e_dis_loss: 0.5603, d_total_loss: 0.0074, d_dis_loss: 1.4516, attack_loss: 0.0118
+[12899]: fg_loss: 0.0008, e_total_loss: 0.0808, e_dis_loss: 0.5402, d_total_loss: 0.0074, d_dis_loss: 1.4893, attack_loss: 0.0108
+[12999]: fg_loss: 0.0013, e_total_loss: 0.0872, e_dis_loss: 0.5490, d_total_loss: 0.0072, d_dis_loss: 1.4732, attack_loss: 0.0107
+[13099]: fg_loss: 0.0006, e_total_loss: 0.0827, e_dis_loss: 0.5740, d_total_loss: 0.0072, d_dis_loss: 1.4930, attack_loss: 0.0110
+[13199]: fg_loss: 0.0009, e_total_loss: 0.0947, e_dis_loss: 0.5442, d_total_loss: 0.0075, d_dis_loss: 1.4619, attack_loss: 0.0106
+[13299]: fg_loss: 0.0009, e_total_loss: 0.0879, e_dis_loss: 0.5786, d_total_loss: 0.0073, d_dis_loss: 1.4775, attack_loss: 0.0112
+[13399]: fg_loss: 0.0006, e_total_loss: 0.0842, e_dis_loss: 0.5473, d_total_loss: 0.0073, d_dis_loss: 1.4974, attack_loss: 0.0107
+[13499]: fg_loss: 0.0009, e_total_loss: 0.0794, e_dis_loss: 0.5229, d_total_loss: 0.0072, d_dis_loss: 1.4576, attack_loss: 0.0104
+[13599]: fg_loss: 0.0008, e_total_loss: 0.0816, e_dis_loss: 0.5700, d_total_loss: 0.0071, d_dis_loss: 1.4675, attack_loss: 0.0110
+[13699]: fg_loss: 0.0010, e_total_loss: 0.0851, e_dis_loss: 0.5603, d_total_loss: 0.0075, d_dis_loss: 1.4640, attack_loss: 0.0107
+[13799]: fg_loss: 0.0005, e_total_loss: 0.0823, e_dis_loss: 0.5342, d_total_loss: 0.0071, d_dis_loss: 1.4884, attack_loss: 0.0108
+[13899]: fg_loss: 0.0007, e_total_loss: 0.0798, e_dis_loss: 0.5475, d_total_loss: 0.0074, d_dis_loss: 1.4565, attack_loss: 0.0109
+[13999]: fg_loss: 0.0011, e_total_loss: 0.0832, e_dis_loss: 0.5822, d_total_loss: 0.0072, d_dis_loss: 1.4742, attack_loss: 0.0107
+[14099]: fg_loss: 0.0010, e_total_loss: 0.0812, e_dis_loss: 0.5882, d_total_loss: 0.0073, d_dis_loss: 1.4854, attack_loss: 0.0106
+[14199]: fg_loss: 0.0008, e_total_loss: 0.0823, e_dis_loss: 0.6023, d_total_loss: 0.0074, d_dis_loss: 1.4529, attack_loss: 0.0104
+[14299]: fg_loss: 0.0019, e_total_loss: 0.0798, e_dis_loss: 0.5381, d_total_loss: 0.0072, d_dis_loss: 1.4695, attack_loss: 0.0105
+[14399]: fg_loss: 0.9677, e_total_loss: 1.0678, e_dis_loss: 0.6223, d_total_loss: 0.0091, d_dis_loss: 1.4704, attack_loss: 0.0147
+[14499]: fg_loss: 0.4904, e_total_loss: 0.5595, e_dis_loss: 0.5076, d_total_loss: 0.0084, d_dis_loss: 1.4738, attack_loss: 0.0129
+[14599]: fg_loss: 0.1621, e_total_loss: 0.2931, e_dis_loss: 0.4181, d_total_loss: 0.0082, d_dis_loss: 1.4766, attack_loss: 0.0122
+[14699]: fg_loss: 0.0302, e_total_loss: 0.1466, e_dis_loss: 0.3716, d_total_loss: 0.0079, d_dis_loss: 1.4677, attack_loss: 0.0120
+[14799]: fg_loss: 0.0207, e_total_loss: 0.1237, e_dis_loss: 0.3493, d_total_loss: 0.0078, d_dis_loss: 1.4462, attack_loss: 0.0115
+[14899]: fg_loss: 0.0092, e_total_loss: 0.0986, e_dis_loss: 0.3776, d_total_loss: 0.0075, d_dis_loss: 1.4605, attack_loss: 0.0118
+[14999]: fg_loss: 0.0051, e_total_loss: 0.0891, e_dis_loss: 0.3928, d_total_loss: 0.0074, d_dis_loss: 1.4601, attack_loss: 0.0112
+[15099]: fg_loss: 0.0037, e_total_loss: 0.0872, e_dis_loss: 0.4438, d_total_loss: 0.0075, d_dis_loss: 1.4563, attack_loss: 0.0106
+[15199]: fg_loss: 0.0020, e_total_loss: 0.0793, e_dis_loss: 0.4455, d_total_loss: 0.0071, d_dis_loss: 1.4747, attack_loss: 0.0108
+[15299]: fg_loss: 0.0022, e_total_loss: 0.0737, e_dis_loss: 0.4978, d_total_loss: 0.0073, d_dis_loss: 1.4673, attack_loss: 0.0109
+[15399]: fg_loss: 0.0017, e_total_loss: 0.0712, e_dis_loss: 0.5098, d_total_loss: 0.0072, d_dis_loss: 1.4604, attack_loss: 0.0113
+[15499]: fg_loss: 0.0016, e_total_loss: 0.0723, e_dis_loss: 0.5138, d_total_loss: 0.0072, d_dis_loss: 1.4425, attack_loss: 0.0106
+[15599]: fg_loss: 0.0014, e_total_loss: 0.0682, e_dis_loss: 0.5663, d_total_loss: 0.0074, d_dis_loss: 1.4810, attack_loss: 0.0104
+[15699]: fg_loss: 0.0011, e_total_loss: 0.0714, e_dis_loss: 0.5799, d_total_loss: 0.0072, d_dis_loss: 1.4634, attack_loss: 0.0107
+[15799]: fg_loss: 0.0015, e_total_loss: 0.0665, e_dis_loss: 0.6019, d_total_loss: 0.0074, d_dis_loss: 1.4653, attack_loss: 0.0107
+[15899]: fg_loss: 0.0011, e_total_loss: 0.0663, e_dis_loss: 0.5992, d_total_loss: 0.0072, d_dis_loss: 1.4682, attack_loss: 0.0104
+[15999]: fg_loss: 0.0012, e_total_loss: 0.0679, e_dis_loss: 0.6467, d_total_loss: 0.0073, d_dis_loss: 1.4630, attack_loss: 0.0106
+[16099]: fg_loss: 0.0010, e_total_loss: 0.0649, e_dis_loss: 0.6658, d_total_loss: 0.0074, d_dis_loss: 1.4831, attack_loss: 0.0108
+[16199]: fg_loss: 0.0009, e_total_loss: 0.0627, e_dis_loss: 0.6586, d_total_loss: 0.0074, d_dis_loss: 1.4471, attack_loss: 0.0103
+[16299]: fg_loss: 0.0012, e_total_loss: 0.0694, e_dis_loss: 0.6225, d_total_loss: 0.0075, d_dis_loss: 1.4559, attack_loss: 0.0106
+[16399]: fg_loss: 0.0008, e_total_loss: 0.0636, e_dis_loss: 0.6347, d_total_loss: 0.0073, d_dis_loss: 1.4681, attack_loss: 0.0105
+[16499]: fg_loss: 0.0013, e_total_loss: 0.0635, e_dis_loss: 0.6128, d_total_loss: 0.0075, d_dis_loss: 1.4366, attack_loss: 0.0103
+[16599]: fg_loss: 0.0007, e_total_loss: 0.0599, e_dis_loss: 0.6743, d_total_loss: 0.0073, d_dis_loss: 1.4708, attack_loss: 0.0108
+[16699]: fg_loss: 0.0011, e_total_loss: 0.0675, e_dis_loss: 0.7333, d_total_loss: 0.0079, d_dis_loss: 1.4732, attack_loss: 0.0120
+[16799]: fg_loss: 0.0009, e_total_loss: 0.0644, e_dis_loss: 0.6944, d_total_loss: 0.0076, d_dis_loss: 1.4675, attack_loss: 0.0116
+[16899]: fg_loss: 0.0008, e_total_loss: 0.0651, e_dis_loss: 0.6675, d_total_loss: 0.0077, d_dis_loss: 1.4630, attack_loss: 0.0115
+[16999]: fg_loss: 0.0011, e_total_loss: 0.0704, e_dis_loss: 0.6466, d_total_loss: 0.0077, d_dis_loss: 1.4538, attack_loss: 0.0115
+[17099]: fg_loss: 0.0007, e_total_loss: 0.0608, e_dis_loss: 0.6920, d_total_loss: 0.0076, d_dis_loss: 1.4859, attack_loss: 0.0110
+[17199]: fg_loss: 0.0012, e_total_loss: 0.0657, e_dis_loss: 0.6523, d_total_loss: 0.0076, d_dis_loss: 1.4458, attack_loss: 0.0102
+[17299]: fg_loss: 0.0007, e_total_loss: 0.0690, e_dis_loss: 0.6589, d_total_loss: 0.0074, d_dis_loss: 1.4576, attack_loss: 0.0101
+[17399]: fg_loss: 0.0009, e_total_loss: 0.0715, e_dis_loss: 0.7531, d_total_loss: 0.0077, d_dis_loss: 1.4839, attack_loss: 0.0108
+[17499]: fg_loss: 0.0009, e_total_loss: 0.0721, e_dis_loss: 0.6968, d_total_loss: 0.0076, d_dis_loss: 1.4592, attack_loss: 0.0109
+[17599]: fg_loss: 0.0007, e_total_loss: 0.0756, e_dis_loss: 0.6409, d_total_loss: 0.0077, d_dis_loss: 1.4453, attack_loss: 0.0109
+[17699]: fg_loss: 0.0010, e_total_loss: 0.0723, e_dis_loss: 0.6448, d_total_loss: 0.0077, d_dis_loss: 1.4565, attack_loss: 0.0110
+[17799]: fg_loss: 0.0006, e_total_loss: 0.0836, e_dis_loss: 0.6583, d_total_loss: 0.0077, d_dis_loss: 1.4639, attack_loss: 0.0104
+[17899]: fg_loss: 0.0012, e_total_loss: 0.0819, e_dis_loss: 0.5941, d_total_loss: 0.0079, d_dis_loss: 1.4406, attack_loss: 0.0105
+[17999]: fg_loss: 0.0006, e_total_loss: 0.0740, e_dis_loss: 0.5920, d_total_loss: 0.0078, d_dis_loss: 1.4661, attack_loss: 0.0105
+[18099]: fg_loss: 0.0008, e_total_loss: 0.0702, e_dis_loss: 0.5877, d_total_loss: 0.0078, d_dis_loss: 1.4622, attack_loss: 0.0102
+[18199]: fg_loss: 0.0009, e_total_loss: 0.0710, e_dis_loss: 0.6262, d_total_loss: 0.0078, d_dis_loss: 1.4669, attack_loss: 0.0104
+[18299]: fg_loss: 0.0005, e_total_loss: 0.0712, e_dis_loss: 0.6153, d_total_loss: 0.0076, d_dis_loss: 1.4522, attack_loss: 0.0103
+[18399]: fg_loss: 0.0010, e_total_loss: 0.0687, e_dis_loss: 0.5963, d_total_loss: 0.0076, d_dis_loss: 1.4573, attack_loss: 0.0099
+[18499]: fg_loss: 0.0005, e_total_loss: 0.0643, e_dis_loss: 0.6539, d_total_loss: 0.0076, d_dis_loss: 1.4624, attack_loss: 0.0101
+[18599]: fg_loss: 0.0011, e_total_loss: 0.0645, e_dis_loss: 0.6722, d_total_loss: 0.0075, d_dis_loss: 1.4447, attack_loss: 0.0098
+[18699]: fg_loss: 0.0006, e_total_loss: 0.0649, e_dis_loss: 0.6202, d_total_loss: 0.0075, d_dis_loss: 1.4714, attack_loss: 0.0100
+[18799]: fg_loss: 0.0008, e_total_loss: 0.0653, e_dis_loss: 0.6718, d_total_loss: 0.0076, d_dis_loss: 1.4548, attack_loss: 0.0103
+[18899]: fg_loss: 0.0008, e_total_loss: 0.0627, e_dis_loss: 0.6736, d_total_loss: 0.0075, d_dis_loss: 1.4543, attack_loss: 0.0100
+[18999]: fg_loss: 0.0008, e_total_loss: 0.0663, e_dis_loss: 0.6961, d_total_loss: 0.0077, d_dis_loss: 1.4662, attack_loss: 0.0104
+[19099]: fg_loss: 0.0009, e_total_loss: 0.0681, e_dis_loss: 0.6728, d_total_loss: 0.0077, d_dis_loss: 1.4517, attack_loss: 0.0107
+[19199]: fg_loss: 0.0005, e_total_loss: 0.0722, e_dis_loss: 0.6609, d_total_loss: 0.0077, d_dis_loss: 1.4792, attack_loss: 0.0108
+[19299]: fg_loss: 0.0009, e_total_loss: 0.0735, e_dis_loss: 0.6460, d_total_loss: 0.0077, d_dis_loss: 1.4351, attack_loss: 0.0107
+[19399]: fg_loss: 0.0007, e_total_loss: 0.0733, e_dis_loss: 0.6117, d_total_loss: 0.0076, d_dis_loss: 1.4528, attack_loss: 0.0104
+[19499]: fg_loss: 0.0007, e_total_loss: 0.0740, e_dis_loss: 0.6521, d_total_loss: 0.0076, d_dis_loss: 1.4482, attack_loss: 0.0103
+[19599]: fg_loss: 0.0007, e_total_loss: 0.0738, e_dis_loss: 0.6247, d_total_loss: 0.0078, d_dis_loss: 1.4543, attack_loss: 0.0100
+[19699]: fg_loss: 0.0006, e_total_loss: 0.0717, e_dis_loss: 0.5860, d_total_loss: 0.0076, d_dis_loss: 1.4704, attack_loss: 0.0103
+[19799]: fg_loss: 0.0010, e_total_loss: 0.0706, e_dis_loss: 0.5961, d_total_loss: 0.0077, d_dis_loss: 1.4562, attack_loss: 0.0111
+[19899]: fg_loss: 0.0004, e_total_loss: 0.0700, e_dis_loss: 0.6061, d_total_loss: 0.0075, d_dis_loss: 1.4605, attack_loss: 0.0104
+[19999]: fg_loss: 0.0008, e_total_loss: 0.0679, e_dis_loss: 0.6086, d_total_loss: 0.0075, d_dis_loss: 1.4647, attack_loss: 0.0101
+Experiment took 3600.4492881298065 seconds, on average 0.18002246440649033 seconds/iteration.
+Experiment done. Saving history...
+Average MSE over all client's images: 0.010324216638811124.
+Average SSIM over all client's images: 0.7487817691941546.
+Attack MSE on batch: 0.0098957484588027, on these examples: 0.010400870814919472
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+Loading model from: /user/mzaib/miniconda/envs/sdar/lib/python3.10/site-packages/lpips/weights/v0.1/alex.pth
+Reconstruction metrics:
+  asr_ssim_0.90: 0.0
+  lpips_max: 0.0909799337387085
+  lpips_mean: 0.04634908586740494
+  lpips_min: 0.007229563780128956
+  lpips_std: 0.016148312017321587
+  mse_max: 0.029386194422841072
+  mse_mean: 0.0098957484588027
+  mse_min: 0.002792458748444915
+  mse_std: 0.004274576902389526
+  psnr_max: 25.540132522583008
+  psnr_mean: 20.42361068725586
+  psnr_min: 15.318567276000977
+  psnr_std: 1.822155237197876
+  ssim_max: 0.8999200463294983
+  ssim_mean: 0.7663724422454834
+  ssim_min: 0.5622599124908447
+  ssim_std: 0.07732899487018585
+History saved to sdar_results/vsl/cifar100/resnet18_lc3_run1.npy
+Metrics saved to sdar_results/vsl/cifar100/output/resnet18_lc3_run1_metrics.json

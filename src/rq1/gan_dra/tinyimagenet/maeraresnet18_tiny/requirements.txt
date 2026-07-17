@@ -1,0 +1,6 @@
+numpy>=1.24
+torch>=2.1
+torchvision>=0.16
+tqdm>=4.66
+lpips>=0.1.4
+scikit-image>=0.21

@@ -1,0 +1,9 @@
+tensorflow
+numpy
+scikit-learn
+matplotlib
+imageio
+scikit-image
+lpips
+torch
+torchvision
