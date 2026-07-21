@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-echo "RQ2 uses the splitlearn environment."
+echo "RQ2 uses the sdar environment."
 echo "Run this file from RQ2_Multi_Client."
 
 cd code/sdar_tiny_k10_RRiid

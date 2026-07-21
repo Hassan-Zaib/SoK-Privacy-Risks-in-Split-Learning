@@ -4,11 +4,11 @@ RQ2 studies how client count, data partitioning, and orchestration affect smashe
 
 Environment
 
-Use the splitlearn Conda environment.
+Use the sdar Conda environment.
 
 Run
 
-conda activate splitlearn
+conda activate sdar
 bash run_all.sh
 
 Code Layout
