@@ -45,7 +45,7 @@ def main():
         logits = server(z)
         require(tuple(logits.shape) == (2, 200), f"{cut}: invalid logits")
 
-        for defense, levels in (("q8", 256), ("q4", 16), ("q2", 4)):
+        for defense, levels in (("q4", 16), ("q2", 4)):
             defended = apply_perturbation(z, defense)
             require(torch.isfinite(defended).all(), f"{cut}/{defense}: non-finite z")
             dims = tuple(range(1, defended.ndim))

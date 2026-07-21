@@ -15,7 +15,7 @@ EMA_DECAY="${EMA_DECAY:-0.9999}"
 AMP_DTYPE="${AMP_DTYPE:-bf16}"
 GRAD_CLIP="${GRAD_CLIP:-1.0}"
 FIXED_PROBE_DIR="${FIXED_PROBE_DIR:-fixed_probe}"
-DEFENSES="${DEFENSES:-none q2 q4 q8}"
+DEFENSES="${DEFENSES:-none q4 q2 noise0.01 noise0.05}"
 
 echo "===== RQ3 smoke: fixed probe and activation shapes ====="
 python scripts/verify_rq3_implementation.py
@@ -26,7 +26,7 @@ else
 fi
 sha256sum "$FIXED_PROBE_DIR/fixed_probe_indices.npy" "$FIXED_PROBE_DIR/fixed_probe_images.npy"
 
-for cut in ; do
+for cut in ${CUTS:-c1 c2 c3 c4}; do
   python scripts/check_shapes.py --cut "$cut"
 done
 
@@ -66,7 +66,7 @@ fi
 
 for defense in $DEFENSES; do
   echo "===== RQ3 full group: defense=${defense} ====="
-  for cut in ; do
+  for cut in ${CUTS:-c1 c2 c3 c4}; do
     victim_summary="results/${defense}/${cut}/victim/victim_summary.json"
     attack_summary="results/${defense}/${cut}/sdar/full_sdar_summary.json"
     legacy_attack_summary="results/${defense}/${cut}/sdar/sdar_summary.json"

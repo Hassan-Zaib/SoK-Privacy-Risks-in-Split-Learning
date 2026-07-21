@@ -121,4 +121,3 @@ dependencies:
       - urllib3==2.6.3
       - werkzeug==3.1.8
       - wrapt==1.14.2
-prefix: /user/mzaib/miniconda/envs/sdar

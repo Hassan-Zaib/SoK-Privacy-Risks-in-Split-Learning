@@ -5,7 +5,7 @@ echo "Checking shell scripts"
 bash -n RQ1_Attack_Comparison/run_all.sh
 bash -n RQ2_Multi_Client/run_all.sh
 bash -n RQ3_Architecture_Defenses/run_all.sh
-find RQ1_Attack_Comparison RQ2_Multi_Client -type f -name "*.sh" -print0 | xargs -0 -n1 bash -n
+find RQ1_Attack_Comparison RQ2_Multi_Client RQ3_Architecture_Defenses -type f -name "*.sh" -print0 | xargs -0 -n1 bash -n
 
 echo "Checking RQ2 data loaders"
 count=$(find RQ2_Multi_Client/code -path "*/src/data.py" | wc -l)
