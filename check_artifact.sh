@@ -14,7 +14,7 @@ test "$count" -eq 9
 echo "Checking RQ3 artifact files"
 (
   cd RQ3_Architecture_Defenses
-  bash run_all.sh
+  bash check_artifact.sh
 )
 
 echo "Artifact check passed"
