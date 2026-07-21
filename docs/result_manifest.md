@@ -4,7 +4,15 @@ This file maps the final paper artifacts to the files included in this repositor
 
 ## RQ1
 
-RQ1 artifacts will be added after the corrected GAN-DRA Tiny ImageNet run is complete.
+RQ1 artifacts are stored under `results/rq1/`.
+
+Included artifacts:
+
+- `results/rq1/figures/full/` contains full qualitative reconstruction sheets.
+- `results/rq1/metrics/unsplit/` contains UnSplit metrics.
+- `results/rq1/metrics/sdar/` contains SDAR metrics.
+- `results/rq1/metrics/gan_dra/` contains GAN-DRA/MAERA metrics.
+- `results/rq1/metrics/simlia/` contains SimLIA metrics.
 
 ## RQ2
 
