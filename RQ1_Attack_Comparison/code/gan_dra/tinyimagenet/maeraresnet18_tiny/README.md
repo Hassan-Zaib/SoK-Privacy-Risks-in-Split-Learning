@@ -2,7 +2,7 @@
 
 This folder implements a MAERA-style server-side data reconstruction attack for Tiny ImageNet.
 
-Paper-faithful Tiny ImageNet settings used here:
+Settings used for Tiny ImageNet:
 
 - Dataset: Tiny ImageNet
 - Classes: 200

@@ -2,7 +2,7 @@
 
 This folder implements a MAERA-style server-side data reconstruction attack for the SAIA experiments.
 
-Faithful paper settings used here:
+Aligned paper settings used here:
 
 - Dataset: CIFAR-100
 - Classes: 100

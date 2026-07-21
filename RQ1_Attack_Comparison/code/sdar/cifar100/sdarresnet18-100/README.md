@@ -2,7 +2,7 @@
 
 This folder is a lean source-only adaptation of the official SDAR implementation from `zhxchd/SDAR_SplitNN`.
 
-Goal: keep SDAR faithful while changing only the controlled SAIA evaluation pieces:
+Goal: keep SDAR while changing only the controlled SAIA evaluation pieces:
 
 - setting: vanilla Split Learning (`vsl`)
 - dataset: CIFAR-100

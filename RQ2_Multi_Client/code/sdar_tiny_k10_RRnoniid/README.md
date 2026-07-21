@@ -1,6 +1,6 @@
 # SDAR Tiny ImageNet K=10 Round-Robin Non-IID
 
-This folder is the Tiny ImageNet RQ2 multi-client setting using the SDAR-faithful label-modulo non-IID partition.
+This folder is the Tiny ImageNet RQ2 multi-client setting using the SDAR-aligned label-modulo non-IID partition.
 
 ## Setting
 
