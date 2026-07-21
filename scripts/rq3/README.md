@@ -1,8 +1,32 @@
-# RQ3 Scripts
+# RQ3 Execution Notes
 
-RQ3 evaluates ConvNeXt-Tiny on Tiny ImageNet under no defense, activation quantization, and Gaussian noise.
+RQ3 evaluates ConvNeXt-Tiny on Tiny ImageNet under activation-level perturbations.
 
-The final reported settings are:
+## Environment
+
+Activate the `rq3` environment.
+
+`conda activate rq3`
+
+## Dataset Setup
+
+RQ3 uses Tiny ImageNet. See `docs/dataset_setup.md` for dataset placement.
+
+## Source Code
+
+The reusable ConvNeXt-Tiny implementation is stored under `src/rq3/`.
+
+The main source files are:
+
+- `src/rq3/convnext_split.py`
+- `src/rq3/data_tinyimagenet.py`
+- `src/rq3/full_sdar.py`
+- `src/rq3/perturbations.py`
+- `src/rq3/train_utils.py`
+
+## Reported Settings
+
+The reported settings are:
 
 - No defense
 - Quantization Q4
@@ -10,4 +34,10 @@ The final reported settings are:
 - Noise 0.01
 - Noise 0.05
 
-The corresponding final metrics and figures are stored under `results/rq3/`.
+## Outputs
+
+Final processed RQ3 outputs are stored under `results/rq3/`.
+
+Metric summaries are under `results/rq3/summaries/`.
+
+Qualitative figures are under `results/rq3/figures/`.

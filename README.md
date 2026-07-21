@@ -1,50 +1,46 @@
 # SoK Capability-Aware Security and Privacy Risks at the Split Learning Interface
 
-This repository contains the curated artifact for the paper:
+This repository contains the curated artifact for the paper **SoK Capability-Aware Security and Privacy Risks at the Split Learning Interface**.
 
-**SoK: Capability-Aware Security and Privacy Risks at the Split Learning Interface**
+The artifact includes source code, environment specifications, processed metrics, and qualitative figures used in the empirical study. Raw datasets, checkpoints, temporary logs, failed runs, and smoke-test outputs are not included.
 
-The artifact includes source code, environment specifications, processed metrics, and qualitative figures used in the empirical study. It does not include raw datasets, trained checkpoints, temporary files, failed runs, or smoke-test outputs.
+## Repository Layout
 
-## Repository Structure
+- `src/` contains the source code for RQ1, RQ2, and RQ3.
+- `scripts/` contains top-level run helpers and per-RQ execution notes.
+- `results/` contains final processed metrics and qualitative figures.
+- `environment/` contains Conda environment exports.
+- `requirements/` contains pip package snapshots.
+- `docs/` contains dataset setup notes, artifact notes, and result mappings.
 
-```text
-environment/  Conda environment exports for the experiments.
-requirements/ Full pip package snapshots for the experiment environments.
-src/          Source code for RQ1, RQ2, and RQ3.
-scripts/      Top-level run helpers and command templates.
-results/      Final processed metrics and qualitative figures.
-docs/         Dataset setup notes, artifact notes, and result manifest.
-Environments
-RQ1 and RQ2 were executed with the splitlearn Conda environment.
-RQ3 was executed with the rq3 Conda environment.
-The exported environments are provided under:
-environment/rq1_rq2_splitlearn.yml
-environment/rq3.yml
-Full pip snapshots are provided under:
-requirements/rq1_rq2_pip_freeze.txt
-requirements/rq3_pip_freeze.txt
-Example setup:
-conda env create -f environment/rq1_rq2_splitlearn.yml
-conda env create -f environment/rq3.yml
-Dataset Setup
-The experiments use CIFAR-10, CIFAR-100, and Tiny ImageNet. Raw datasets are not included.
-Dataset layout and Tiny ImageNet instructions are provided in:
-docs/dataset_setup.md
-Usage
-The top-level scripts document the command sequence used for each research question.
-bash scripts/run_rq1.sh
-bash scripts/run_rq2.sh
-bash scripts/run_rq3.sh
-RQ1 compares representative SAIA attack families across datasets and split points under matched two-party split-learning settings.
-RQ2 studies multi-client leakage under different client counts, data partitions, and orchestration strategies.
-RQ3 evaluates ConvNeXt-Tiny with activation quantization and Gaussian-noise perturbations.
-Results
-Final processed outputs are stored under:
-results/rq1/
-results/rq2/
-results/rq3/
-The mapping between paper artifacts and repository files is documented in:
-docs/result_manifest.md
-Artifact Scope
-This is a curated research artifact. Large checkpoints, raw logs, duplicate runs, and intermediate debugging outputs are intentionally omitted.
+## Setup
+
+RQ1 and RQ2 use the `splitlearn` Conda environment.
+
+RQ3 uses the `rq3` Conda environment.
+
+Environment files are provided under `environment/`.
+
+Dataset setup instructions are provided in `docs/dataset_setup.md`.
+
+## Usage
+
+Read the per-question instructions before running experiments.
+
+- RQ1 instructions are in `scripts/rq1/README.md`.
+- RQ2 instructions are in `scripts/rq2/README.md`.
+- RQ3 instructions are in `scripts/rq3/README.md`.
+
+Top-level helper scripts are also provided.
+
+- `bash scripts/run_rq1.sh`
+- `bash scripts/run_rq2.sh`
+- `bash scripts/run_rq3.sh`
+
+These helper scripts print the command sequence used for each research question.
+
+## Results
+
+Final processed outputs are stored under `results/rq1/`, `results/rq2/`, and `results/rq3/`.
+
+The mapping between paper tables, figures, and repository files is documented in `docs/result_manifest.md`.
