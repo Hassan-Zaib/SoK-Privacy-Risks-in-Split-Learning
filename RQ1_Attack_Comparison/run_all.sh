@@ -33,3 +33,12 @@ run_exp code/sdar/tinyimagenet/sdarresnet18-tiny bash scripts/run_sdar_resnet18_
 run_exp code/gan_dra/cifar10/maeraresnet18-10 bash scripts/run_maera_all_cuts.sh
 run_exp code/gan_dra/cifar100/maeraresnet18-100 bash scripts/run_maera_all_cuts.sh
 run_exp code/gan_dra/tinyimagenet/maeraresnet18_tiny bash scripts/run_maera_all_cuts.sh
+
+run_exp code/simlia/cifar10 bash scripts/train_all_cuts.sh
+run_exp code/simlia/cifar10 bash scripts/attack_all_cuts.sh
+
+run_exp code/simlia/cifar100 bash scripts/train_all_cuts.sh
+run_exp code/simlia/cifar100 bash scripts/attack_all_cuts.sh
+
+run_exp code/simlia/tinyimagenet bash scripts/train_all_cuts.sh
+run_exp code/simlia/tinyimagenet bash scripts/attack_all_cuts.sh
