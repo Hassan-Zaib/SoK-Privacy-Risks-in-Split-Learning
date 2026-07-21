@@ -8,8 +8,14 @@ Use the splitlearn Conda environment.
 
 Run
 
+```bash
 conda activate splitlearn
 bash run_all.sh
+```
+
+## Full Reproduction
+
+`run_all.sh` launches the full RQ1 experiment set across attacks, datasets, and split points. It may take several hours and requires the datasets described in `../docs/dataset_setup.md`.
 
 Code Layout
 

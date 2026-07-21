@@ -8,8 +8,14 @@ Use the sdar Conda environment.
 
 Run
 
+```bash
 conda activate sdar
 bash run_all.sh
+```
+
+## Full Reproduction
+
+`run_all.sh` launches the full RQ2 multi-client experiment set. It may take several hours and requires Tiny ImageNet as described in `../docs/dataset_setup.md`.
 
 Code Layout
 
