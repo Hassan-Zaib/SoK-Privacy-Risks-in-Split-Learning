@@ -32,7 +32,7 @@ The experiments use CIFAR-10, CIFAR-100, and Tiny ImageNet. Raw datasets are not
 Dataset layout and Tiny ImageNet instructions are provided in:
 docs/dataset_setup.md
 Usage
-The top-level scripts document the exact command sequence used for each research question.
+The top-level scripts document the command sequence used for each research question.
 bash scripts/run_rq1.sh
 bash scripts/run_rq2.sh
 bash scripts/run_rq3.sh
