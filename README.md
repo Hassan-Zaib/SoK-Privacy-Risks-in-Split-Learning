@@ -4,28 +4,33 @@ This repository contains the artifact for the paper **SoK Capability-Aware Secur
 
 The artifact is organized by research question. Each folder contains the code, run instructions, and final processed results for that part of the empirical study. Raw datasets, checkpoints, temporary logs, failed runs, and smoke-test outputs are not included.
 
-## Structure
+## Repository Structure
 
-```text
-RQ1_Attack_Comparison/          Two-party attack comparison across datasets and cuts
-RQ2_Multi_Client/               Multi-client split learning experiments
-RQ3_Architecture_Defenses/      ConvNeXt-Tiny and activation perturbation experiments
-environment/                    Conda environment exports
-requirements/                   Pip package snapshots
-docs/                           Dataset setup, artifact notes, and result manifest
-Setup
-RQ1 and RQ2 use the splitlearn Conda environment.
-conda env create -f environment/rq1_rq2_splitlearn.yml
-conda activate splitlearn
-RQ3 uses the rq3 Conda environment.
-conda env create -f environment/rq3.yml
-conda activate rq3
-Dataset setup instructions are provided in docs/dataset_setup.md.
-Usage
-cd RQ1_Attack_Comparison
-bash run_all.sh
-cd RQ2_Multi_Client
-bash run_all.sh
-cd RQ3_Architecture_Defenses
-bash run_all.sh
-```text
+- `RQ1_Attack_Comparison/` contains the two-party attack comparison across datasets and cut points.
+- `RQ2_Multi_Client/` contains the multi-client split learning experiments.
+- `RQ3_Architecture_Defenses/` contains the ConvNeXt-Tiny and activation perturbation experiments.
+- `environment/` contains Conda environment exports.
+- `requirements/` contains pip package snapshots.
+- `docs/` contains dataset setup notes, artifact notes, and result mappings.
+
+## Setup
+
+RQ1 and RQ2 use the `splitlearn` Conda environment.
+
+Run `conda env create -f environment/rq1_rq2_splitlearn.yml` and then `conda activate splitlearn`.
+
+RQ3 uses the `rq3` Conda environment.
+
+Run `conda env create -f environment/rq3.yml` and then `conda activate rq3`.
+
+Dataset setup instructions are provided in `docs/dataset_setup.md`.
+
+## Usage
+
+For RQ1, run `cd RQ1_Attack_Comparison` and then `bash run_all.sh`.
+
+For RQ2, run `cd RQ2_Multi_Client` and then `bash run_all.sh`.
+
+For RQ3, run `cd RQ3_Architecture_Defenses` and then `bash run_all.sh`.
+
+The mapping between paper tables, figures, and artifact files is documented in `docs/result_manifest.md`.
