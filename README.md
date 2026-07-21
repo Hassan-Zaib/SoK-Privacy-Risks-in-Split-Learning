@@ -20,8 +20,6 @@ RQ1 uses the `splitlearn` Conda environment, RQ2 uses the `sdar` Conda environme
 Run `conda env create -f environment/rq1_rq2_splitlearn.yml` for RQ1, `conda env create -f environment/rq2_sdar.yml` for RQ2, and `conda env create -f environment/rq3.yml` for RQ3.
 
 
-Run `conda env create -f environment/rq3.yml` and then `conda activate rq3`.
-
 Dataset setup instructions are provided in `docs/dataset_setup.md`.
 
 ## Usage
