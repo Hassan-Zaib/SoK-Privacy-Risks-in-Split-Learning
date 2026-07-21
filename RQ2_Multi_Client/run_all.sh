@@ -1,41 +1,28 @@
 #!/usr/bin/env bash
-set -e
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 echo "RQ2 uses the sdar environment."
-echo "Run this file from RQ2_Multi_Client."
+echo "Repository root for this RQ: $ROOT"
 
-cd code/sdar_tiny_k10_RRiid
-bash scripts/run_tiny_k10_rr_iid_all_cuts.sh
-cd ../..
+run_exp() {
+  local dir="$1"
+  local script="$2"
+  echo
+  echo "== Running ${dir} =="
+  (
+    cd "$ROOT/$dir"
+    bash "$script"
+  )
+}
 
-cd code/sdar_tiny_k10_RRnoniid
-bash scripts/run_tiny_k10_rr_noniid_all_cuts.sh
-cd ../..
-
-cd code/sdar_tiny_k10_RRdirichlet_a05
-bash scripts/run_tiny_k10_rr_dirichlet_a05_all_cuts.sh
-cd ../..
-
-cd code/sdar_tiny_k20_RRiid
-bash scripts/run_tiny_k20_rr_iid_all_cuts.sh
-cd ../..
-
-cd code/sdar_tiny_k20_RRnoniid
-bash scripts/run_tiny_k20_rr_noniid_all_cuts.sh
-cd ../..
-
-cd code/sdar_tiny_k20_RRdirichlet_a05
-bash scripts/run_tiny_k20_rr_dirichlet_a05_all_cuts.sh
-cd ../..
-
-cd code/sdar_tiny_k10_PSLiid_sglr
-bash scripts/run_tiny_k10_psl_iid_sglr_all_cuts.sh
-cd ../..
-
-cd code/sdar_tiny_k10_PSLnoniid_sglr
-bash scripts/run_tiny_k10_psl_noniid_sglr_all_cuts.sh
-cd ../..
-
-cd code/sdar_tiny_k10_PSLdirichlet_a05_sglr
-bash scripts/run_tiny_k10_psl_dirichlet_a05_sglr_all_cuts.sh
-cd ../..
+run_exp code/sdar_tiny_k10_RRiid scripts/run_tiny_k10_rr_iid_all_cuts.sh
+run_exp code/sdar_tiny_k10_RRnoniid scripts/run_tiny_k10_rr_noniid_all_cuts.sh
+run_exp code/sdar_tiny_k10_RRdirichlet_a05 scripts/run_tiny_k10_rr_dirichlet_a05_all_cuts.sh
+run_exp code/sdar_tiny_k20_RRiid scripts/run_tiny_k20_rr_iid_all_cuts.sh
+run_exp code/sdar_tiny_k20_RRnoniid scripts/run_tiny_k20_rr_noniid_all_cuts.sh
+run_exp code/sdar_tiny_k20_RRdirichlet_a05 scripts/run_tiny_k20_rr_dirichlet_a05_all_cuts.sh
+run_exp code/sdar_tiny_k10_PSLiid_sglr scripts/run_tiny_k10_psl_iid_sglr_all_cuts.sh
+run_exp code/sdar_tiny_k10_PSLnoniid_sglr scripts/run_tiny_k10_psl_noniid_sglr_all_cuts.sh
+run_exp code/sdar_tiny_k10_PSLdirichlet_a05_sglr scripts/run_tiny_k10_psl_dirichlet_a05_sglr_all_cuts.sh
