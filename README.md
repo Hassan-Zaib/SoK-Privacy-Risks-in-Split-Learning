@@ -17,7 +17,7 @@ The artifact is organized by research question. Each folder contains the code, r
 
 RQ1 uses the `splitlearn` Conda environment, RQ2 uses the `sdar` Conda environment, and RQ3 uses the `rq3` Conda environment.
 
-Run `conda env create -f environment/rq1_rq2_splitlearn.yml` for RQ1, `conda env create -f environment/rq2_sdar.yml` for RQ2, and `conda env create -f environment/rq3.yml` for RQ3.
+Run `conda env create -f environment/rq1_splitlearn.yml` for RQ1, `conda env create -f environment/rq2_sdar.yml` for RQ2, and `conda env create -f environment/rq3.yml` for RQ3.
 
 
 Dataset setup instructions are provided in `docs/dataset_setup.md`.
