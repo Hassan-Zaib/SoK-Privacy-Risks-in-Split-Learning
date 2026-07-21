@@ -4,33 +4,33 @@ This file maps the final paper artifacts to the files included in this repositor
 
 ## RQ1
 
-RQ1 artifacts are stored under `results/rq1/`.
+RQ1 artifacts are stored under `RQ1_Attack_Comparison/results/`.
 
 Included artifacts:
 
-- `results/rq1/figures/full/` contains full qualitative reconstruction sheets.
-- `results/rq1/metrics/unsplit/` contains UnSplit metrics.
-- `results/rq1/metrics/sdar/` contains SDAR metrics.
-- `results/rq1/metrics/gan_dra/` contains GAN-DRA/MAERA metrics.
-- `results/rq1/metrics/simlia/` contains SimLIA metrics.
+- `RQ1_Attack_Comparison/results/figures/full/` contains full qualitative reconstruction sheets.
+- `RQ1_Attack_Comparison/results/metrics/unsplit/` contains UnSplit metrics.
+- `RQ1_Attack_Comparison/results/metrics/sdar/` contains SDAR metrics.
+- `RQ1_Attack_Comparison/results/metrics/gan_dra/` contains GAN-DRA/MAERA metrics.
+- `RQ1_Attack_Comparison/results/metrics/simlia/` contains SimLIA metrics.
 
 ## RQ2
 
-RQ2 artifacts are stored under `results/rq2/`.
+RQ2 artifacts are stored under `RQ2_Multi_Client/results/`.
 
 Main qualitative figures:
 
-- `results/rq2/figures/rq2_du_style_sample_custom_600dpi.pdf`
-- `results/rq2/figures/rq2_multiclient_qualitative_v5_600dpi.pdf`
-- `results/rq2/figures/rq2_multiclient_qualitative_v5_600dpi.png`
+- `RQ2_Multi_Client/results/figures/rq2_du_style_sample_custom_600dpi.pdf`
+- `RQ2_Multi_Client/results/figures/rq2_multiclient_qualitative_v5_600dpi.pdf`
+- `RQ2_Multi_Client/results/figures/rq2_multiclient_qualitative_v5_600dpi.png`
 
 Full qualitative sheets:
 
-- `results/rq2/figures/full/`
+- `RQ2_Multi_Client/results/figures/full/`
 
 Metric summaries:
 
-- `results/rq2/summaries/`
+- `RQ2_Multi_Client/results/summaries/`
 
 Included settings:
 
@@ -46,31 +46,31 @@ Included settings:
 
 ## RQ3
 
-RQ3 artifacts are stored under `results/rq3/`.
+RQ3 artifacts are stored under `RQ3_Architecture_Defenses/results/`.
 
 Main qualitative figure:
 
-- `results/rq3/figures/rq3_qualitative_pair_3_9.pdf`
+- `RQ3_Architecture_Defenses/results/figures/rq3_qualitative_pair_3_9.pdf`
 
 Full qualitative sheets:
 
-- `results/rq3/figures/full/q4_fixed_probe_orig_c1_c4.png`
-- `results/rq3/figures/full/q2_fixed_probe_orig_c1_c4.png`
-- `results/rq3/figures/full/noise0.01_fixed_probe_orig_c1_c4.png`
-- `results/rq3/figures/full/noise0.05_fixed_probe_orig_c1_c4.png`
+- `RQ3_Architecture_Defenses/results/figures/full/q4_fixed_probe_orig_c1_c4.png`
+- `RQ3_Architecture_Defenses/results/figures/full/q2_fixed_probe_orig_c1_c4.png`
+- `RQ3_Architecture_Defenses/results/figures/full/noise0.01_fixed_probe_orig_c1_c4.png`
+- `RQ3_Architecture_Defenses/results/figures/full/noise0.05_fixed_probe_orig_c1_c4.png`
 
 Probe sheets:
 
-- `results/rq3/figures/probe_sheets/rq3_convnext_tiny_none_fixed_probe_orig_c1_c4.png`
-- `results/rq3/figures/probe_sheets/rq3_convnext_tiny_q4_fixed_probe_orig_c1_c4.png`
-- `results/rq3/figures/probe_sheets/rq3_convnext_tiny_q2_fixed_probe_orig_c1_c4.png`
-- `results/rq3/figures/probe_sheets/rq3_convnext_tiny_noise0.01_fixed_probe_orig_c1_c4.png`
-- `results/rq3/figures/probe_sheets/rq3_convnext_tiny_noise0.05_fixed_probe_orig_c1_c4.png`
+- `RQ3_Architecture_Defenses/results/figures/probe_sheets/rq3_convnext_tiny_none_fixed_probe_orig_c1_c4.png`
+- `RQ3_Architecture_Defenses/results/figures/probe_sheets/rq3_convnext_tiny_q4_fixed_probe_orig_c1_c4.png`
+- `RQ3_Architecture_Defenses/results/figures/probe_sheets/rq3_convnext_tiny_q2_fixed_probe_orig_c1_c4.png`
+- `RQ3_Architecture_Defenses/results/figures/probe_sheets/rq3_convnext_tiny_noise0.01_fixed_probe_orig_c1_c4.png`
+- `RQ3_Architecture_Defenses/results/figures/probe_sheets/rq3_convnext_tiny_noise0.05_fixed_probe_orig_c1_c4.png`
 
 Metric summaries:
 
-- `results/rq3/summaries/no_defense/`
-- `results/rq3/summaries/quantization_q4/`
-- `results/rq3/summaries/quantization_q2/`
-- `results/rq3/summaries/noise_0p01/`
-- `results/rq3/summaries/noise_0p05/`
+- `RQ3_Architecture_Defenses/results/summaries/no_defense/`
+- `RQ3_Architecture_Defenses/results/summaries/quantization_q4/`
+- `RQ3_Architecture_Defenses/results/summaries/quantization_q2/`
+- `RQ3_Architecture_Defenses/results/summaries/noise_0p01/`
+- `RQ3_Architecture_Defenses/results/summaries/noise_0p05/`
