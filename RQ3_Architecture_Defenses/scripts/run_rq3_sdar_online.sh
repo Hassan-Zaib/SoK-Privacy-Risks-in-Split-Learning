@@ -4,7 +4,7 @@ set -euo pipefail
 DATA_ROOT="${DATA_ROOT:-data/tiny-imagenet-200}"
 RUN_ROOT="${RUN_ROOT:-results_sdar_online}"
 FIXED_PROBE_DIR="${FIXED_PROBE_DIR:-fixed_probe}"
-DEFENSES="${DEFENSES:-none q8 q4 q2}"
+DEFENSES="${DEFENSES:-none q4 q2 noise0.01 noise0.05}"
 CUTS="${CUTS:-c1 c2 c3 c4}"
 SDAR_STEPS="${SDAR_STEPS:-20000}"
 SDAR_BATCH_SIZE="${SDAR_BATCH_SIZE:-128}"

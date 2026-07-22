@@ -7,7 +7,7 @@ This folder runs the RQ3 experiment: original ConvNeXt-Tiny style backbone on na
 - Backbone: ConvNeXt-Tiny depths `[3, 3, 9, 3]`, dims `[96, 192, 384, 768]`.
 - Dataset: Tiny ImageNet, 200 classes, native `64x64`.
 - Training: 2-party sequential Split Learning.
-- Main defenses: `none`, `q8`, `q4`, `q2`.
+- Main defenses: `none`, `q4`, `q2`, `noise0.01`, `noise0.05`.
 - Fixed probe: created once in `fixed_probe/` and reused for all current and future defenses.
 
 The public cut names are stage-level only:
@@ -26,13 +26,11 @@ The ConvNeXt stem is internal and is not reported as a main cut.
 From your local machine:
 
 ```bash
-scp -r "/Users/user/Documents/saia_sok/SDAR eXPERINMENT/RQ3" mzaib@SERVER:~/saia_sok/
 ```
 
 On the server:
 
 ```bash
-cd ~/saia_sok/RQ3
 mkdir -p data
 ln -sfn ~/saia_sok/datasets/tiny-imagenet-200 data/tiny-imagenet-200
 ```
@@ -40,7 +38,6 @@ ln -sfn ~/saia_sok/datasets/tiny-imagenet-200 data/tiny-imagenet-200
 Start the full sequential run:
 
 ```bash
-tmux new-session -d -s rq3_convnext_quant_seq "bash -lc 'source ~/miniconda/etc/profile.d/conda.sh && conda activate rq3 && cd ~/saia_sok/RQ3 && bash scripts/run_rq3_sequential.sh; echo; exec bash'"
 ```
 
 Attach:
@@ -68,7 +65,8 @@ The runner executes in this order:
 3. `none`: C1, C2, C3, C4
 4. `q2`: C1, C2, C3, C4
 5. `q4`: C1, C2, C3, C4
-6. `q8`: C1, C2, C3, C4
+6. `noise0.01`: C1, C2, C3, C4
+6. `noise0.05`: C1, C2, C3, C4
 
 Completed victim and attack summaries are detected and skipped, so the same command can resume an interrupted run.
 
