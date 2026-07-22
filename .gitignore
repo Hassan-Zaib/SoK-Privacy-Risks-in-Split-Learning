@@ -15,3 +15,8 @@ data/
 *.tar
 *.tar.gz
 *.tgz
+
+# Reviewer/local smoke outputs
+**/results/reviewer_smoke/
+**/results_smoke/
+**/fixed_probe/
