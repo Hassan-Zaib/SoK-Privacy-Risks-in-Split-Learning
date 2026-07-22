@@ -12,10 +12,10 @@ def load(path):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--run-root", default="results")
-    parser.add_argument("--defense", choices=["none", "q8", "q4", "q2", "all"], default="all")
+    parser.add_argument("--defense", choices=["none", "q4", "q2", "noise0.01", "noise0.05", "all"], default="all")
     args = parser.parse_args()
 
-    defenses = ["none", "q8", "q4", "q2"] if args.defense == "all" else [args.defense]
+    defenses = ["none", "q4", "q2", "noise0.01", "noise0.05"] if args.defense == "all" else [args.defense]
     print("RQ3 ConvNeXt-Tiny Tiny ImageNet 64x64 Split Learning")
     print("| Defense | Cut | Standalone Val Acc | SDAR FG Acc | SDAR Val Acc | MSE | PSNR | SSIM | LPIPS | ASR | Fixed SSIM |")
     print("|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|")

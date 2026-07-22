@@ -18,10 +18,10 @@ def fmt(value, decimals=4):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--run-root", default="results_sdar_online")
-    parser.add_argument("--defense", choices=["none", "q8", "q4", "q2", "all"], default="all")
+    parser.add_argument("--defense", choices=["none", "q4", "q2", "noise0.01", "noise0.05", "all"], default="all")
     args = parser.parse_args()
 
-    defenses = ["none", "q8", "q4", "q2"] if args.defense == "all" else [args.defense]
+    defenses = ["none", "q4", "q2", "noise0.01", "noise0.05"] if args.defense == "all" else [args.defense]
     print("RQ3 ConvNeXt-Tiny Tiny ImageNet 64x64: Clean Online SDAR")
     print("| Defense | Cut | SDAR Victim Val Acc | FG Acc Last100 | MSE | PSNR | SSIM | LPIPS | ASR | Fixed SSIM | Steps | Attack Pool |")
     print("|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|")

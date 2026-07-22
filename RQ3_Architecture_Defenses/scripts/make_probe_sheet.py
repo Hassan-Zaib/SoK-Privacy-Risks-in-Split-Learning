@@ -13,7 +13,7 @@ from train_utils import save_image_grid
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--run-root", default="results")
-    parser.add_argument("--defense", required=True, choices=["none", "q8", "q4", "q2"])
+    parser.add_argument("--defense", required=True, choices=["none", "q4", "q2", "noise0.01", "noise0.05"])
     parser.add_argument("--out-dir", default="results/probe_sheets")
     args = parser.parse_args()
 

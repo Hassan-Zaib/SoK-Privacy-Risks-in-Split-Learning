@@ -331,7 +331,7 @@ def main():
     parser.add_argument("--run-root", default="results")
     parser.add_argument("--fixed-probe-dir", default="fixed_probe")
     parser.add_argument("--cut", required=True, choices=["c1", "c2", "c3", "c4"])
-    parser.add_argument("--defense", required=True, choices=["none", "q8", "q4", "q2"])
+    parser.add_argument("--defense", required=True, choices=["none", "q4", "q2", "noise0.01", "noise0.05"])
     parser.add_argument("--steps", type=int, default=20000)
     parser.add_argument("--batch-size", type=int, default=128)
     parser.add_argument("--num-workers", type=int, default=8)
