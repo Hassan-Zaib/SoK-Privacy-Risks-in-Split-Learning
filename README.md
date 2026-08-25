@@ -1,6 +1,6 @@
-# SoK Capability-Aware Security and Privacy Risks at the Split Learning Interface
+# SoK-Privacy-Risks-in-Split-Learning
 
-This repository contains the artifact for the paper **SoK Capability-Aware Security and Privacy Risks at the Split Learning Interface**.
+This repository contains the artifact for the paper **SoK-Privacy-Risks-in-Split-Learning**.
 
 The artifact is organized by research question. Each folder contains the code, run instructions, and final processed results for that part of the empirical study. Raw datasets, checkpoints, temporary logs, failed runs, and smoke-test outputs are not included.
 
