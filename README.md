@@ -1,6 +1,6 @@
-# SoK-Privacy-Risks-in-Split-Learning
+# SoK: Privacy Risks in Split Learning
 
-This repository contains the artifact for the paper **SoK-Privacy-Risks-in-Split-Learning**.
+This repository contains the artifact for the paper **SoK: Privacy Risks in Split Learning**.
 
 The artifact is organized by research question. Each folder contains the code, run instructions, and final processed results for that part of the empirical study. Raw datasets, checkpoints, temporary logs, failed runs, and smoke-test outputs are not included.
 
